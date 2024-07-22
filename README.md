@@ -20,7 +20,7 @@ No installation is required for this project. Simply copy the code into a JavaSc
 
 ## Usage
 
-1. Copy the code into a file named `quoteGenerator.js`.
+1. Copy the code into a file - ex: `quoteGenerator.js` 
 2. Run the file in a JavaScript environment, such as Node.js or a browser console.
 
 ```sh
