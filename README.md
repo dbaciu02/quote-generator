@@ -7,8 +7,6 @@ This project is a simple JavaScript program that generates a random movie quote 
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Code Explanation](#code-explanation)
-- [License](#license)
 
 ## Features
 
