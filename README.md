@@ -7,6 +7,7 @@ This project is a simple JavaScript program that generates a random movie quote 
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Code Explanation](#code-explanation)
 
 ## Features
 
@@ -25,3 +26,22 @@ No installation is required for this project. Simply copy the code into a JavaSc
 
 ```sh
 node quoteGenerator.js
+```
+
+## Code Explanation
+The program consists of three main parts:
+
+1. Arrays containing movie quotes, characters, and movie titles.
+2. A function to generate a random quote.
+3. A call to the function to display the generated quote.
+
+### Arrays
+- movieQuotes: Contains a list of famous movie quotes.
+- characters: Contains the names of characters who said the corresponding quotes.
+- movies: Contains the names of movies the corresponding quotes are from.
+
+### Function: generateQuote
+This function generates a random quote by:
+- Generating a random index.
+- Using the random index to select a quote, character, and movie from the arrays.
+- Returning a string that combines the quote, character, and movie.
